@@ -310,13 +310,13 @@ export const FooterLinks = [
 ] as const;
 
 export const sideBarRightMail = {
-  link: "mailto:myemail@com",
-  text: "myemail@com",
+  link: "mailto: ephremkapo23@gmail.com",
+  text: " ephremkapo23@gmail.com",
 } as const;
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/alpay/",
+    link: "https://www.linkedin.com/in/ephrem-kapo-591188252/",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
@@ -326,7 +326,7 @@ export const sideBarLeftSocials = [
     altimgname: "github",
   },
   {
-    link: "mailto:myemail@com",
+    link: "mailto:ephremkapo23@gmail.com",
     icon: FiMail,
     altimgname: "mail",
   },

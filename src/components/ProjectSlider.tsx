@@ -109,48 +109,19 @@ const ProjectSlider: React.FC = () => {
                         : project.description_EN}
                     </p>
                     <div className="technologies">
-                      <h3>
-                        {language === "DE" ? "Technologien" : "Technologies"}
-                      </h3>
+                     
                       <div className="grid grid-cols-6 gap-10 p-4">
-                        {project.technologies.map(
-                          (technology, innerIndex: number) => (
-                            <img
-                              key={innerIndex}
-                              src={technology.icon}
-                              alt={`${project.title}-icon`}
-                              className="h-[5rem] w-[60%] "
-                              data-tooltip-id="my-tooltip"
-                              data-tooltip-content={technology.name}
-                            />
-                          )
-                        )}
+                        
                       </div>
                     </div>
-                    <div className="buttons flex gap-10">
-                      <Button
-                        label="Live Demo"
-                        link={project.deploymenturl}
-                        iconSVG={project.deploymenticon}
-                        buttoncolor={project.colors.main}
-                        iconcolor={project.colors.icon}
-                        onClick={notifyServerRequest}
-                      />
-                      <Button
-                        label="Github Repository"
-                        link={project.githuburl}
-                        iconSVG={project.githubicon}
-                        buttoncolor={project.colors.main}
-                        iconcolor={project.colors.icon}
-                      />
-                    </div>
+                    
                   </div>
 
                   <div className="right-content relative h-[40rem] overflow-hidden rounded-xl w-[40%] transition-all duration-200 shadow-2xl">
                     <img
                       src={project.image}
                       alt={`${project.title}-project-mockup`}
-                      className={`w-full h-auto transition-all duration-[6000ms] transform opacity-100 hover:translate-y-[-50%] 
+                      className={`w-full h-full transition-all duration-[6000ms] transform opacity-100 hover:translate-y-[-50%] 
                       `}
                     />
                   </div>
@@ -168,22 +139,7 @@ const ProjectSlider: React.FC = () => {
                   alt={project.image}
                   className="h-[35vh] w-full object-cover object-top rounded-3xl"
                 />
-                <div className="buttons flex gap-10 max-lg:flex-col">
-                  <Button
-                    label="Live Demo"
-                    link={project.deploymenturl}
-                    iconSVG={project.deploymenticon}
-                    buttoncolor={project.colors.main}
-                    iconcolor={project.colors.icon}
-                  />
-                  <Button
-                    label="Github Repository"
-                    link={project.githuburl}
-                    iconSVG={project.githubicon}
-                    buttoncolor={project.colors.main}
-                    iconcolor={project.colors.icon}
-                  />
-                </div>
+                
                 <p className="text-white  max-lg:text-4xl">
                   {language === "DE"
                     ? project.description
@@ -191,22 +147,9 @@ const ProjectSlider: React.FC = () => {
                 </p>
 
                 <div className="technologies">
-                  <h3 className="text-white">
-                    {language === "DE" ? "Technologien" : "Technologies"}
-                  </h3>
+                 
                   <div className="grid grid-cols-3 gap-10 p-4">
-                    {project.technologies.map(
-                      (technology, innerIndex: number) => (
-                        <img
-                          key={innerIndex}
-                          src={technology.icon}
-                          alt={`${project.title}-icon`}
-                          className="h-[5rem] w-[60%] "
-                          data-tooltip-id="my-tooltip"
-                          data-tooltip-content={technology.name}
-                        />
-                      )
-                    )}
+                    
                   </div>
                 </div>
               </article>

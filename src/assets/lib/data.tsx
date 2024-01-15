@@ -23,9 +23,9 @@ import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.webp";
-import instorMockup from "../../assets/img/instor_mockup.webp";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
+import p1 from "../../assets/img/p1.jpg";
+import p2 from "../../assets/img/p2.jpg";
+import p3 from "../../assets/img/p3.jpg";
 import profilepicture from "../img/efap.png";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -72,11 +72,11 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Tasty App",
+    title: "billboard design",
     description:
       "Eine Rezepte App, die wir als Team mit React und der MealDB API gebaut haben. Ich war der Front-End Entwickler und habe Features wie Voice Search oder Print to PDF programmiert. Das Design wurde mit Figma erstellt. Die Website ist responsive und mobile-optimiert.",
     description_EN:
-      "A recipe app that we built as a team with React and the MealDB API. I was the front-end developer and programmed features like voice search or print to PDF. The design was created with Figma. The website is responsive and mobile-optimized.",
+      "This billboard design is for an apartment called Meruna in Addis Ababa, a common area of   the African Union. The design is 13 meters tall and 6 meters wide and took 3 days to complete. I have received great joy and appreciation from employers for the role of a graphic design.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -88,7 +88,7 @@ export const projectsData = [
       { name: "Netlify", icon: netlifyicon },
       { name: "Trello", icon: trelloicon },
     ],
-    image: tastyMockup,
+    image: p1,
     deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
     githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
     githubicon: FiGithub,
@@ -101,11 +101,11 @@ export const projectsData = [
     },
   },
   {
-    title: "Silentmoon",
+    title: "Logo Design",
     description:
       "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
     description_EN:
-      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+      "It is a common saying among Ethiopians that it means welcome. The logo is difficult to describe, but I was able to complete it in one week. It is designed so that its use and authenticity are not highlighted. If you like it, be a family with me.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -120,7 +120,7 @@ export const projectsData = [
       { name: "Figma", icon: figmaicon },
       { name: "Render", icon: rendericon },
     ],
-    image: silentmoonMockup,
+    image: p2,
     deploymenturl: "https://silentmoon-grpw.onrender.com/",
     githuburl:
       "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
@@ -134,11 +134,11 @@ export const projectsData = [
     },
   },
   {
-    title: "Furniture Organizer",
+    title: "Billboard Design",
     description:
       "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
     description_EN:
-      "A furniture organizer app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
+      "This is a billboard for an apartment called Design Royal. It has been 6 months since we started working together. This billboard design was placed on the German square roundabout and their headquarters building in Addis Ababa. In addition, it is placed on a building in the neighborhood of lebu Music bet.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -153,7 +153,7 @@ export const projectsData = [
       { name: "Render", icon: rendericon },
       { name: "Trello", icon: trelloicon },
     ],
-    image: instorMockup,
+    image: p3,
     deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
     githuburl: "https://github.com/AlpayC/Furniture_MERN",
     githubicon: FiGithub,
@@ -233,12 +233,6 @@ export const skillsDataWeb = [
         color: "#449C45",
       },
       {
-        title: "Vue.js",
-        hash: "#Vue.js",
-        icon: vuejsicon,
-        color: "#4FC08D",
-      },
-      {
         title: "Express",
         hash: "#Express",
         icon: [expressicon, expressiconwhite],
@@ -281,12 +275,6 @@ export const skillsDataCMS = [
         color: "#21759B",
       },
       {
-        title: "Shopify",
-        hash: "#Shopify",
-        icon: shopifyicon,
-        color: "#7AB55C",
-      },
-      {
         title: "Webflow",
         hash: "#Webflow",
         icon: webflowicon,
@@ -311,7 +299,7 @@ export const FooterLinks = [
 
 export const sideBarRightMail = {
   link: "mailto: ephremkapo23@gmail.com",
-  text: " ephremkapo23@gmail.com",
+  text: " +251923682654",
 } as const;
 
 export const sideBarLeftSocials = [
@@ -321,7 +309,7 @@ export const sideBarLeftSocials = [
     altimgname: "linkedin",
   },
   {
-    link: "https://github.com/AlpayC",
+    link: "https://github.com/EphreMKapoGraphiduction",
     icon: FiGithub,
     altimgname: "github",
   },
